@@ -1,0 +1,25 @@
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+
+// VARIABLES
+$mp: #00BCD4;
+$ms: #FFC107;
+$la: 'Lato', sans-serif;
+$w: white;
+$t: transparent;
+// END
+
+// MIXINS
+@mixin cssaligntag($align) {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  text-align: $align;
+}
+// END
+
+* {
+  outline:none;
+}
+
