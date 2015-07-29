@@ -1,15 +1,15 @@
 <div id="home">
 
-  <div class="about" data-sr="enter top, move 16px scale up 30%, over .5s">
+  <div class="top">
 
-    <span class="bio">
+    <span data-sr="enter top, move 16px scale up 30%, over .5s" class="bio">
       <h3>code like a teenaged girl.</h3>
       <p>i'm princess sampson: front-end developer, iron yard academy graduate, and highschooler.</p>
       <p class="social"><a href="http://github.com/psamp" target="blank"><i class="fa fa-github"></i></a></p>
     </span>
-  
   </div>
-  <div hash="work" class="work" data-sr="enter top, move 16px scale up 30%, over .5s">
+
+  <div class="work">
 
     <ul class="projects" data-sr="enter bottom, move 16px scale up 30%, over 1s">
 
@@ -135,9 +135,8 @@
 
     </ul>
 
-  </div>
+  </div> 
+  <script>
+    window.sr = new scrollReveal();
+  </script>
 </div>
-
- <script>
-  window.sr = new scrollReveal();
- </script>

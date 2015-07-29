@@ -6,8 +6,8 @@
 
   .config(function($mdThemingProvider) {
     $mdThemingProvider.theme('default')
-      .primaryPalette('amber')
-      .accentPalette('cyan');
+      .primaryPalette('cyan')
+      .accentPalette('purple');
   })
 
   .config(['$stateProvider', '$urlRouterProvider',
@@ -19,6 +19,7 @@
       $stateProvider
         .state('home', {
           url: '/',
+          controller: 'HomeCtrl',
           templateUrl: 'js/templates/home.tpl.html'
         })
 

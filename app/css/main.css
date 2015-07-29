@@ -14,7 +14,8 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   text-transform: lowercase;
-  background: darkgrey; }
+  background: darkgrey;
+  clear: both; }
 
 nav {
   height: 15%;
@@ -44,13 +45,13 @@ nav {
   background-color: #DFE0E1;
   background-image: -webkit-linear-gradient(top left, magenta, cyan);
   background-image: linear-gradient(to bottom right,magenta, cyan, , , , , , , , ); }
-  #home .about {
+  #home .top {
     margin-left: 0 auto;
     margin-right: 0 auto;
     width: 100%;
     height: 830px;
     padding-top: 200px; }
-    #home .about .bio h3 {
+    #home .top .bio h3 {
       font-family: "Open Sans", sans-serif;
       font-weight: 700;
       text-transform: uppercase;
@@ -61,11 +62,11 @@ nav {
       margin-top: 3px;
       margin-bottom: 3px;
       text-align: center; }
-    #home .about .bio .social {
+    #home .top .bio .social {
       font-size: 40px; }
-      #home .about .bio .social a {
+      #home .top .bio .social a {
         color: white; }
-        #home .about .bio .social a:hover {
+        #home .top .bio .social a:hover {
           transition: .5s all ease;
           opacity: .4; }
   #home .work {

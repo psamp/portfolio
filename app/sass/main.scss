@@ -63,6 +63,7 @@ $t: transparent;
 body {
  @include font($os, 300, lowercase);
  background:darkgrey;
+ clear:both;
 }
 
 nav {
@@ -96,7 +97,7 @@ nav {
   color:$w;
   @include linear-gradient(to bottom right, magenta, cyan, $fallback: $offwhite);
 
-  .about {
+  .top {
     @include homediv();
     padding-top:200px;
     .bio {
