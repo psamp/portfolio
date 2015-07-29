@@ -6,7 +6,9 @@
 
   .controller('HomeCtrl', ['$scope', '$location', '$mdDialog' function ($scope, $location, $mdDialog) {
 
-    $scope.toWork
+    $scope.toWork = function() {
+      $location.
+    }
     
   }]);
 
