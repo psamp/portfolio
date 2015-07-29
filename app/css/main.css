@@ -7,4 +7,101 @@ html {
   box-sizing: inherit; }
 
 * {
-  outline: none; }
+  outline: none;
+  list-style: none; }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  text-transform: lowercase;
+  background: darkgrey; }
+
+nav {
+  height: 15%;
+  color: white;
+  background: black;
+  line-height: 120px;
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase; }
+  nav h1 {
+    margin: 0;
+    font-family: "Rock Salt", cursive;
+    font-weight: 300;
+    text-transform: uppercase;
+    float: left; }
+  nav .links span {
+    padding: 7px;
+    border-bottom: 2px white solid; }
+
+#home {
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: #DFE0E1;
+  background-image: -webkit-linear-gradient(top left, magenta, cyan);
+  background-image: linear-gradient(to bottom right,magenta, cyan, , , , , , , , ); }
+  #home .about {
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    width: 100%;
+    height: 830px;
+    padding-top: 200px; }
+    #home .about .bio h3 {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 65px;
+      color: white;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 3px;
+      margin-bottom: 3px;
+      text-align: center; }
+    #home .about .bio .social {
+      font-size: 40px; }
+      #home .about .bio .social a {
+        color: white; }
+        #home .about .bio .social a:hover {
+          transition: .5s all ease;
+          opacity: .4; }
+  #home .work {
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    width: 100%;
+    height: 830px;
+    color: white;
+    background: #DFE0E1;
+    background-color: #DFE0E1;
+    background-image: -webkit-linear-gradient(top left, yellow, red);
+    background-image: linear-gradient(to bottom right,yellow, red, , , , , , , , );
+    padding-top: 100px; }
+    #home .work ul {
+      max-width: 68em;
+      margin-left: auto;
+      margin-right: auto; }
+      #home .work ul::after {
+        clear: both;
+        content: "";
+        display: table; }
+      #home .work ul .top {
+        float: right; }
+      #home .work ul li {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 31.76157%;
+        margin-bottom: 50px; }
+        #home .work ul li:last-child {
+          margin-right: 0; }
+        #home .work ul li:nth-child(3n) {
+          margin-right: 0; }
+        #home .work ul li:nth-child(3n+1) {
+          clear: left; }
+        #home .work ul li .md-imac {
+          font-size: 5px; }
+          #home .work ul li .md-imac img {
+            width: 100%; }
