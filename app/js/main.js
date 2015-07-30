@@ -2,7 +2,7 @@
   
   'use strict';
 
-  angular.module('Psamp', ['ui.router', 'ngMaterial'])
+  angular.module('Psamp', ['ui.router', 'ngMaterial', 'duScroll'])
 
   .config(function($mdThemingProvider) {
     $mdThemingProvider.theme('default')

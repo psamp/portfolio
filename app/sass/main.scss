@@ -64,6 +64,15 @@ body {
  @include font($os, 300, lowercase);
  background:darkgrey;
  clear:both;
+
+ a {
+
+  &:hover {
+    transition: .5s all ease;
+    opacity: .4;
+  }
+
+ }
 }
 
 nav {
@@ -111,10 +120,6 @@ nav {
         font-size:40px;
         a {
           color: white;
-          &:hover {
-            transition: .5s all ease;
-            opacity: .4;
-          }
         }
       }
     }
@@ -122,12 +127,21 @@ nav {
 
   .work {
     @include homediv();
+    height: 150vh;
     color:white;
     background:$offwhite;
     @include linear-gradient(to bottom right, yellow, red, $fallback: $offwhite);
-    padding-top:100px;
+
+    a {
+      color: $w;
+
+      &:visted {
+        color:$w;
+      }
+    }
 
     ul {
+      padding-top:100px;
       @include outer-container;
 
       .top {
