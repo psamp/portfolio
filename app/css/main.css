@@ -44,70 +44,89 @@ nav {
 #home {
   width: 100%;
   text-align: center;
-  color: white;
+  color: white; }
+
+.top {
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  border-bottom: 7px solid black;
+  width: 100%;
+  height: 100vh;
   background-color: #DFE0E1;
   background-image: -webkit-linear-gradient(top left, magenta, cyan);
-  background-image: linear-gradient(to bottom right,magenta, cyan, , , , , , , , ); }
-  #home .top {
-    margin-left: 0 auto;
-    margin-right: 0 auto;
-    width: 100%;
-    height: 830px;
-    padding-top: 200px; }
-    #home .top .bio h3 {
-      font-family: "Open Sans", sans-serif;
-      font-weight: 700;
-      text-transform: uppercase;
-      font-size: 65px;
-      color: white;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 3px;
-      margin-bottom: 3px;
-      text-align: center; }
-    #home .top .bio .social {
-      font-size: 40px; }
-      #home .top .bio .social a {
-        color: white; }
-  #home .work {
-    margin-left: 0 auto;
-    margin-right: 0 auto;
-    width: 100%;
-    height: 830px;
-    height: 150vh;
+  background-image: linear-gradient(to bottom right,magenta, cyan, , , , , , , , );
+  padding-top: 200px; }
+  .top .bio h3 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 65px;
     color: white;
-    background: #DFE0E1;
-    background-color: #DFE0E1;
-    background-image: -webkit-linear-gradient(top left, yellow, red);
-    background-image: linear-gradient(to bottom right,yellow, red, , , , , , , , ); }
-    #home .work a {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-align: center; }
+  .top .bio .social {
+    font-size: 40px; }
+    .top .bio .social a {
       color: white; }
-      #home .work a:visted {
-        color: white; }
-    #home .work ul {
-      padding-top: 100px;
-      max-width: 68em;
-      margin-left: auto;
-      margin-right: auto; }
-      #home .work ul::after {
-        clear: both;
-        content: "";
-        display: table; }
-      #home .work ul .top {
-        float: right; }
-      #home .work ul li {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 31.76157%;
-        margin-bottom: 50px; }
-        #home .work ul li:last-child {
-          margin-right: 0; }
-        #home .work ul li:nth-child(3n) {
-          margin-right: 0; }
-        #home .work ul li:nth-child(3n+1) {
-          clear: left; }
-        #home .work ul li .md-imac {
-          font-size: 5px; }
-          #home .work ul li .md-imac img {
-            width: 100%; }
+
+.work {
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  border-bottom: 7px solid black;
+  width: 100%;
+  color: white;
+  background: #DFE0E1;
+  background-color: #DFE0E1;
+  background-image: -webkit-linear-gradient(top left, yellow, red);
+  background-image: linear-gradient(to bottom right,yellow, red, , , , , , , , ); }
+  .work a {
+    color: white; }
+    .work a:visted {
+      color: white; }
+  .work ul {
+    padding-top: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto; }
+    .work ul::after {
+      clear: both;
+      content: "";
+      display: table; }
+    .work ul .top {
+      float: right; }
+    .work ul li {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%;
+      margin-bottom: 30px;
+      @inlude cssaligntag(center); }
+      .work ul li:last-child {
+        margin-right: 0; }
+      .work ul li:nth-child(3n) {
+        margin-right: 0; }
+      .work ul li:nth-child(3n+1) {
+        clear: left; }
+      .work ul li .md-imac {
+        display: inline-block;
+        font-size: 4px; }
+        .work ul li .md-imac img {
+          width: 100%; }
+
+.about {
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  border-bottom: 7px solid black;
+  width: 100%;
+  height: 100vh;
+  background-color: #DFE0E1;
+  background-image: -webkit-linear-gradient(top left, pink, hotpink);
+  background-image: linear-gradient(to bottom right,pink, hotpink, , , , , , , , );
+  margin-top: 0; }
+  .about .more {
+    padding-top: 200px; }
