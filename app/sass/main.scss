@@ -49,9 +49,8 @@ $t: transparent;
 
 @mixin homediv() {
   @include auto();
-  border-bottom:7px solid black;
   width:100%;
-  // height:830px;
+  height:800px;
 };
 // END
 
@@ -108,7 +107,6 @@ nav {
 
 .top {
   @include homediv();
-  height:100vh;
   @include linear-gradient(to bottom right, magenta, cyan, $fallback: $offwhite);
   padding-top:200px;
   .bio {
@@ -129,15 +127,15 @@ nav {
 
 .work {
   @include homediv();
-  color:white;
+  color:black;
   background:$offwhite;
-  @include linear-gradient(to bottom right, yellow, red, $fallback: $offwhite);
+  @include linear-gradient(to bottom right, white, white, $fallback: $offwhite);
 
   a {
-    color: $w;
+    color: black;
 
     &:visted {
-      color:$w;
+      color:black;
     }
   }
 
@@ -172,9 +170,9 @@ nav {
 
 .about {
   @include homediv();
-  height:100vh;
-  @include linear-gradient(to bottom right, pink, hotpink, $fallback: $offwhite);
-  margin-top:0;
+  height:400px;
+  @include linear-gradient(to bottom right, magenta, cyan, $fallback: $offwhite);
+  padding-top:200px;
   .more {
     padding-top:200px;
   }
