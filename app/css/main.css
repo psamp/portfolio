@@ -50,7 +50,7 @@ nav {
   margin-left: 0 auto;
   margin-right: 0 auto;
   width: 100%;
-  height: 800px;
+  height: 830px;
   background-color: #DFE0E1;
   background-image: -webkit-linear-gradient(top left, magenta, cyan);
   background-image: linear-gradient(to bottom right,magenta, cyan, , , , , , , , );
@@ -75,16 +75,16 @@ nav {
   margin-left: 0 auto;
   margin-right: 0 auto;
   width: 100%;
-  height: 800px;
+  height: 830px;
   color: black;
   background: #DFE0E1;
   background-color: #DFE0E1;
   background-image: -webkit-linear-gradient(top left, white, white);
   background-image: linear-gradient(to bottom right,white, white, , , , , , , , ); }
   .work a {
-    color: white; }
+    color: black; }
     .work a:visted {
-      color: white; }
+      color: black; }
   .work ul {
     padding-top: 40px;
     margin-top: 0;
@@ -121,11 +121,12 @@ nav {
   margin-left: 0 auto;
   margin-right: 0 auto;
   width: 100%;
-  height: 800px;
-  height: 400px;
+  height: 830px;
   background-color: #DFE0E1;
   background-image: -webkit-linear-gradient(top left, magenta, cyan);
   background-image: linear-gradient(to bottom right,magenta, cyan, , , , , , , , );
   padding-top: 200px; }
-  .about .more {
-    padding-top: 200px; }
+  .about .bio img {
+    height: 200px;
+    border: 20px solid white;
+    border-radius: 150px; }
