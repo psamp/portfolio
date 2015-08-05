@@ -87,6 +87,8 @@ nav {
       color: black; }
   .work .tabs {
     margin-top: 0; }
+    .work .tabs .fa {
+      font-size: 30px; }
     .work .tabs .md-imac {
       display: inline-block;
       font-size: 7px;
@@ -101,9 +103,28 @@ nav {
   height: 830px;
   background-color: #DFE0E1;
   background-image: -webkit-linear-gradient(top left, magenta, cyan);
-  background-image: linear-gradient(to bottom right,magenta, cyan, , , , , , , , );
-  padding-top: 200px; }
-  .about .bio img {
+  background-image: linear-gradient(to bottom right,magenta, cyan, , , , , , , , ); }
+  .about img {
     height: 200px;
-    border: 20px solid white;
+    border: 15px solid white;
     border-radius: 150px; }
+  .about .left {
+    width: 50%;
+    margin: 0;
+    height: 100%;
+    float: left;
+    background: transparent;
+    border-right: 5px solid white;
+    padding-top: 200px; }
+  .about .right {
+    width: 50%;
+    margin: 0;
+    height: 100%;
+    float: right;
+    background: transparent;
+    font-size: 200px; }
+    .about .right a {
+      color: white; }
+    .about .right ul {
+      margin: 0;
+      color: white; }

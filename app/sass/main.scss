@@ -8,7 +8,6 @@ $mpopacity: RGBA(139, 70, 174, .6);
 $msopacity: RGBA(83, 185, 208, .6);
 $os: 'Open Sans', sans-serif;
 $rs: 'Rock Salt', cursive;
-$eb: 'EB Garamond', serif;
 $w: white;
 $offwhite: #DFE0E1;
 $t: transparent;
@@ -142,6 +141,10 @@ nav {
   .tabs {
     margin-top: 0;
 
+    .fa {
+      font-size:30px;
+    }
+
       .md-imac {
         display: inline-block;
         font-size:7px;
@@ -161,15 +164,38 @@ nav {
 
 .about {
   @include homediv();
-  // height:400px;
+  // height:415px;
   @include linear-gradient(to bottom right, magenta, cyan, $fallback: $offwhite);
-  padding-top:200px;
-  .bio {
-    img {
-      // display: inline-block;
-      height:200px;
-      border:20px solid $w;
-      border-radius: 150px;
+
+  img {
+    // display: inline-block;
+    height:200px;
+    border:15px solid white;
+    border-radius: 150px;
+  }
+
+  .left {
+    width:50%;
+    margin:0;
+    height:100%;
+    float:left;
+    background: transparent;
+    border-right:5px solid white;
+    padding-top: 200px;
+  }
+  .right {
+    width:50%;
+    margin:0;
+    height:100%;
+    float:right;
+    background: transparent;
+    font-size:200px;
+   a {
+     color:white;
+   }
+    ul {
+      margin:0;
+      color:white;
     }
   }
 }
