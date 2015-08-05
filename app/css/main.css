@@ -85,37 +85,14 @@ nav {
     color: black; }
     .work a:visted {
       color: black; }
-  .work ul {
-    padding-top: 40px;
-    margin-top: 0;
-    margin-bottom: 0;
-    max-width: 68em;
-    margin-left: auto;
-    margin-right: auto; }
-    .work ul::after {
-      clear: both;
-      content: "";
-      display: table; }
-    .work ul .top {
-      float: right; }
-    .work ul li {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%;
-      margin-bottom: 30px;
-      @inlude cssaligntag(center); }
-      .work ul li:last-child {
-        margin-right: 0; }
-      .work ul li:nth-child(3n) {
-        margin-right: 0; }
-      .work ul li:nth-child(3n+1) {
-        clear: left; }
-      .work ul li .md-imac {
-        display: inline-block;
-        font-size: 4px; }
-        .work ul li .md-imac img {
-          width: 100%; }
+  .work .tabs {
+    margin-top: 0; }
+    .work .tabs .md-imac {
+      display: inline-block;
+      font-size: 7px;
+      margin-top: 100px; }
+      .work .tabs .md-imac img {
+        width: 100%; }
 
 .about {
   margin-left: 0 auto;

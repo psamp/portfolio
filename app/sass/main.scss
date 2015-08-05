@@ -139,32 +139,23 @@ nav {
     }
   }
 
-  ul {
-    padding-top:40px;
+  .tabs {
     margin-top: 0;
-    margin-bottom:0;
-    @include outer-container;
-
-    .top {
-      float:right;
-    }
-
-    li {
-      @include span-columns(4);
-      @include omega(3n);
-      margin-bottom:30px;
-      @inlude cssaligntag(center);
 
       .md-imac {
         display: inline-block;
-        // vertical-align: middle;
-        font-size:4px;
+        font-size:7px;
+        margin-top:100px;
          img {
           width:100%;
          }
+       }
+
+      p {
+        // width:30%;
+        // margin: 0 auto;
       }
 
-    }
   }
 }
 
