@@ -50,7 +50,7 @@
           desc: 'Clone of an Etsy search page. Solo project.',
           screencap_url: '../assets/etsy.png',
           github_url: 'https://github.com/psamp/EtsySearch_Notebooks',
-          deployed_url: 'https://psamp.github.io/EtsySearch_Notebooks',
+          deployed_url: 'http://psamp.github.io/EtsySearch_Notebooks',
           built_with: [
             'HTML',
             '(S)CSS',
@@ -65,7 +65,7 @@
           desc: 'Website for a restaurant, based on the functionality requested from an imagined client. Group project.',
           screencap_url: '../assets/foxtail.png',
           github_url: 'https://github.com/krose422/the-fox-tail-restaurant',
-          deployed_url: 'https://krose422.github.io/the-fox-tail-restaurant/',
+          deployed_url: 'http://krose422.github.io/the-fox-tail-restaurant/',
           built_with: [
             'HTML',
             '(S)CSS',
@@ -82,7 +82,7 @@
           desc: 'Clock that converts the time of day into CSS hex color values, changing the background of the page to match.',
           screencap_url: '../assets/whatcolor.png',
           github_url: 'https://github.com/psamp/Hexadecimal-Color-Clock_Normal',
-          deployed_url: 'https://psamp.github.io/Hexadecimal-Color-Clock_Normal/',
+          deployed_url: 'http://psamp.github.io/Hexadecimal-Color-Clock_Normal/',
           built_with: [
             'HTML',
             '(S)CSS',
