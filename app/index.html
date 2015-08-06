@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- FONTS -->
-  <link href="http://fonts.googleapis.com/css?family=Rock+Salt|Open+Sans:400,700,300" rel="stylesheet" type="text/css">
   <link rel="stylesheet" type="text/css" href="css/vendor/font-awesome.css">
   <link rel="stylesheet" href="css/vendor/font-awesome-animation.min.css">
   <!-- END -->
@@ -21,13 +20,12 @@
 
 <body ng-app="Psamp">
 
-  <nav id="nav">
+  <nav ng-controller="HomeCtrl" id="nav">
     <h1>psamp</h1>
 
     <span class="links">
-      <span>about</span>
-      <span>work</span>
-      <span>talk</span>
+      <span ng-click="toAbout()">about&amp;contact</span>
+      <span ng-click="toWork()">work</span>
     </span>
   </nav>
 

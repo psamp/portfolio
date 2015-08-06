@@ -9,146 +9,39 @@
     </span>
   </div>
 
-  <div class="work">
+  <div class="work" id="work">
 
     <md-tabs class="tabs" md-dynamic-height md-border-bottom>
 
-    <md-tab label="Leet" class="md-padding">
-      <md-content class="md-padding">
-        <div class="md-imac md-glare">
-            <div class="md-body">
-                <div class="md-top">
-                    <div class="md-camera"></div>
+      <md-tab ng-repeat="w in work" label="{{ w.name }}" class="md-padding">
+        <md-content class="md-padding">
+          <div class="md-imac md-glare">
+              <div class="md-body">
+                  <div class="md-top">
+                      <div class="md-camera"></div>
 
-                    <div class="md-screen">
-                    <img src="../assets/leet.png" alt="mvp that brings together users with overlapping layovers. angular.js, angular material, google material icons, scss&amp;html, bourbon/neat, custom ruby on rails backend.">
-                    </div>
-                </div>
-            </div>
-
-            <div class="md-base">
-                <div class="md-stand"></div>
-                <div class="md-foot"></div>
-            </div>
-        </div>
-        <p><a href="http://development.leet.divshot.io/#/" target="_blank"><i class="fa fa-external-link-square"></i></a></p>
-        <p>mvp that brings together users with overlapping layovers. angular.js, angular material, google material icons, scss&amp;html, bourbon/neat, custom ruby on rails backend.</p>
-    </md-content>
-    </md-tab>
-
-    <md-tab label="Ficlist">
-      <md-content class="md-padding">
-      <div class="md-imac md-glare">
-          <div class="md-body">
-              <div class="md-top">
-                  <div class="md-camera"></div>
-
-                  <div class="md-screen">
-                  <img src="../assets/ficlist.png" alt="contacts list with persistent data, themed around fictional characters. solo project. backbone.js, scss&amp;html, bourbon/neat, font-awesome, mongodb heroku backend.">
+                      <div class="md-screen">
+                      <img src="{{ w.screencap_url }}" alt="{{ w.desc }}">
+                      </div>
                   </div>
               </div>
-          </div>
 
-          <div class="md-base">
-              <div class="md-stand"></div>
-              <div class="md-foot"></div>
-          </div>
-      </div>
-      <p><a href="http://development.psamp-ficlist.divshot.io/" target="_blank"><i class="fa fa-external-link-square"></i></a></p>
-      <p>contacts list with persistent data, themed around fictional characters. solo project. backbone.js, scss&amp;html, bourbon/neat, font-awesome, mongodb heroku backend.</p>
-    </md-tab>
-
-    <md-tab label="etsy clone">
-      <div class="md-imac md-glare">
-          <div class="md-body">
-              <div class="md-top">
-                  <div class="md-camera"></div>
-
-                  <div class="md-screen">
-                  <img src="../assets/etsy.png" alt="clone of an etsy search page. solo project. html&css, bourbon/neat, jquery, pulls from static block of etsy api data.">
-                  </div>
+              <div class="md-base">
+                  <div class="md-stand"></div>
+                  <div class="md-foot"></div>
               </div>
           </div>
+          <p><a href="{{ w.deployed_url }}" target="_blank"><i class="fa fa-external-link-square"></i></a> <a href="{{ w.github_url }}" target="_blank"><i class="fa fa-github-square"></i></a></p>
 
-          <div class="md-base">
-              <div class="md-stand"></div>
-              <div class="md-foot"></div>
-          </div>
-      </div>
-      <p><a href="http://development.psamp-ficlist.divshot.io/" target="_blank"><i class="fa fa-external-link-square"></i></a></p>
-      <p>clone of an etsy search page. solo project. html&css, bourbon/neat, jquery, pulls from static block of etsy api data.</p>
-    </md-tab>
-
-    <md-tab label="the fox tail">
-      <div class="md-imac md-glare">
-          <div class="md-body">
-              <div class="md-top">
-                  <div class="md-camera"></div>
-
-                  <div class="md-screen">
-                  <img src="../assets/foxtail.png" alt="website for an imagined restaurant. group project. html&amp;scss, bourbon/neat, jquery, heroku menu api, flickr api.">
-                  </div>
-              </div>
-          </div>
-
-          <div class="md-base">
-              <div class="md-stand"></div>
-              <div class="md-foot"></div>
-          </div>
-      </div>
-      <p><a href="http://krose422.github.io/the-fox-tail-restaurant/" target="_blank"><i class="fa fa-external-link-square"></i></a></p>
-      <p>website for a restaurant, based on the functionality <a href="http://h.timw.co/tiy/group_project/index.html" target="_blank">specs</a> of an imagined client. group project. html&amp;scss, bourbon/neat, jquery, heroku menu api, flickr api.</p>
-    </md-tab>
-
-    <md-tab label="surf &amp; paddle">
-      <div class="md-imac md-glare">
-          <div class="md-body">
-              <div class="md-top">
-                  <div class="md-camera"></div>
-
-                  <div class="md-screen">
-                  <img src="../assets/sandp.png" alt="recreation of a screenshot of a blog. html and css/scss.">
-                  </div>
-              </div>
-          </div>
-
-          <div class="md-base">
-              <div class="md-stand"></div>
-              <div class="md-foot"></div>
-          </div>
-      </div>
-      <p><a href="http://psamp.github.io/Surf_Paddle/" target="_blank"><i class="fa fa-external-link-square"></i></a></p>
-      <p>recreation of a blog template. view the original image <a href="https://github.com/tiy-atl-js-q2-2015/Assignments/blob/master/Assignment%2003%20*/surf-paddle.png" target="_blank">here</a>. html and css/scss.</p>
-
-    </md-tab>
-
-     <md-tab label="g.s.d">
-       <div class="md-imac md-glare">
-           <div class="md-body">
-               <div class="md-top">
-                   <div class="md-camera"></div>
-
-                   <div class="md-screen">
-                   <img src="../assets/todo.png" alt=">simple todo app. jquery, html&css, handlebars.">
-                   </div>
-               </div>
-           </div>
-
-           <div class="md-base">
-               <div class="md-stand"></div>
-               <div class="md-foot"></div>
-           </div>
-       </div>
-       <p><a href="http://development.psamp-todo.divshot.io/" target="_blank"><i class="fa fa-external-link-square"></i></a></p>
-       <p>simple todo app. jquery, html&css, handlebars.</p>
-
-     </md-tab>
+          <p>{{ w.desc }}</p>
+      </md-content>
+      </md-tab>
 
   </md-tabs>
 
   </div>
 
-  <div class="about">
+  <div class="about" id="aboutandcontact">
       <div class="left">
         <p><img src="/../assets/psamp.jpg" alt="me" /></p>
         <p>i'm princess sampson: front-end developer, iron yard academy graduate, oldest of six, atlantan, and highschooler. i adore building minimal, accessible webapps and sites, and i'd love to help create your vision. so, send me an email or a follow request on twitter. let's create something awesome.</p>
