@@ -76,24 +76,29 @@ body {
 }
 
 nav {
-  height:15%;
   color:$w;
-  background:black;
+  background: black;
   line-height: 120px;
   width:100%;
+  height:120px;
   @include padding(100px);
   @include font($os, 700, uppercase);
 
-  h1 {
+  .title {
     margin:0;
     @include font($rs, 300, uppercase);
     float:left;
     font-size:40px;
+    margin:0;
+    margin-right:10px;
   }
 
   .links {
+    float:right;
+
     span {
-      padding:7px;
+      margin-right:10px;
+      display: inline;
       border-bottom:2px white solid;
       text-transform: lowercase;
     }
@@ -103,7 +108,6 @@ nav {
 // HOME
 
 #home {
-  width:100%;
   text-align:center;
   color:$w;
 }
@@ -111,10 +115,12 @@ nav {
 .top {
   @include homediv();
   @include linear-gradient(to bottom right, magenta, cyan, $fallback: cyan);
-  padding-top:200px;
   .bio {
+    margin:0;
     h3 {
       @include font($os, 700, lowercase);
+      padding-top:200px;
+      margin-top:0px !important;
       font-size:65px;
       color:white;
       @include cssaligntag(center);
@@ -158,21 +164,14 @@ nav {
          }
        }
 
-      p {
-        // width:30%;
-        // margin: 0 auto;
-      }
-
   }
 }
 
 .about {
   @include homediv();
-  // height:415px;
   @include linear-gradient(to bottom right, magenta, cyan, $fallback: $offwhite);
 
   img {
-    // display: inline-block;
     height:200px;
     border:15px solid white;
     border-radius: 150px;
@@ -203,3 +202,68 @@ nav {
     }
   }
 }
+
+// MOBILE
+
+@media (max-width: 750px) {
+
+  nav {
+    height:120px;
+    @include cssaligntag(center);
+    background:black;
+    padding:30px;
+    margin-top:0;
+    margin-bottom:0;
+    line-height:40px;
+
+    .title {
+      float:top;
+      width:100%;
+      margin-right:0;
+    }
+
+    .links {
+      height:45%;
+      float:bottom;
+      width:100%;
+      span {
+        line-height:50px;
+      }
+      .topnav {
+        float:top;
+      }
+      .bottom {
+        margin-right:0;
+        float: bottom;
+      }
+    }
+  }
+
+  .about {
+
+    img {
+      padding-top:0;
+    }
+
+    .left {
+      width:100%;
+      height:50%;
+      float:top;
+      margin-top:0;
+      background: transparent;
+      border-right:5px solid white;
+      padding-top: 200px;
+    }
+    .right {
+      width:100%;
+      height:50%;
+      font-size:15px;
+     a {
+       color:white;
+     }
+    }
+  }
+
+}
+
+// END

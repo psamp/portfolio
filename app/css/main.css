@@ -22,30 +22,34 @@ body {
     opacity: .4; }
 
 nav {
-  height: 15%;
   color: white;
   background: black;
   line-height: 120px;
   width: 100%;
+  height: 120px;
   padding-left: 100px;
   padding-right: 100px;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   text-transform: uppercase; }
-  nav h1 {
+  nav .title {
     margin: 0;
     font-family: "Permanent Marker", cursive;
     font-weight: 300;
     text-transform: uppercase;
     float: left;
-    font-size: 40px; }
-  nav .links span {
-    padding: 7px;
-    border-bottom: 2px white solid;
-    text-transform: lowercase; }
+    font-size: 40px;
+    margin: 0;
+    margin-right: 10px; }
+  nav .links {
+    float: right; }
+    nav .links span {
+      margin-right: 10px;
+      display: inline;
+      border-bottom: 2px white solid;
+      text-transform: lowercase; }
 
 #home {
-  width: 100%;
   text-align: center;
   color: white; }
 
@@ -56,23 +60,26 @@ nav {
   height: 830px;
   background-color: cyan;
   background-image: -webkit-linear-gradient(top left, magenta, cyan);
-  background-image: linear-gradient(to bottom right,magenta, cyan, , , , , , , , );
-  padding-top: 200px; }
-  .top .bio h3 {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 700;
-    text-transform: lowercase;
-    font-size: 65px;
-    color: white;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3px;
-    margin-bottom: 3px;
-    text-align: center; }
-  .top .bio .social {
-    font-size: 40px; }
-    .top .bio .social a {
-      color: white; }
+  background-image: linear-gradient(to bottom right,magenta, cyan, , , , , , , , ); }
+  .top .bio {
+    margin: 0; }
+    .top .bio h3 {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 700;
+      text-transform: lowercase;
+      padding-top: 200px;
+      margin-top: 0px !important;
+      font-size: 65px;
+      color: white;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 3px;
+      margin-bottom: 3px;
+      text-align: center; }
+    .top .bio .social {
+      font-size: 40px; }
+      .top .bio .social a {
+        color: white; }
 
 .work {
   margin-left: 0 auto;
@@ -131,3 +138,48 @@ nav {
     .about .right ul {
       margin: 0;
       color: white; }
+
+@media (max-width: 750px) {
+  nav {
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-align: center;
+    background: black;
+    padding: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px; }
+    nav .title {
+      float: top;
+      width: 100%;
+      margin-right: 0; }
+    nav .links {
+      height: 45%;
+      float: bottom;
+      width: 100%; }
+      nav .links span {
+        line-height: 50px; }
+      nav .links .topnav {
+        float: top; }
+      nav .links .bottom {
+        margin-right: 0;
+        float: bottom; }
+  .about img {
+    padding-top: 0; }
+  .about .left {
+    width: 100%;
+    height: 50%;
+    float: top;
+    margin-top: 0;
+    background: transparent;
+    border-right: 5px solid white;
+    padding-top: 200px; }
+  .about .right {
+    width: 100%;
+    height: 50%;
+    font-size: 15px; }
+    .about .right a {
+      color: white; } }
