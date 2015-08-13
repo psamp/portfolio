@@ -16,7 +16,7 @@
           desc: 'MVP that brings together users with overlapping layovers. Worked with Ruby on Rails developers.',
           screencap_url: '../assets/leet.png',
           github_url: 'https://github.com/leet-app/FE',
-          deployed_url: 'https://development.leet.divshot.io/#/',
+          deployed_url: 'http://development.leet.divshot.io/#/',
           built_with: [
             'Angular',
             'Angular Material',
@@ -24,7 +24,8 @@
             '(S)CSS',
             'Google Material Icons',
             'Bourbon/Neat',
-            'Custom Rails backend'
+            'Custom Rails backend',
+            'Underscore'
           ]
         },
         {
@@ -33,7 +34,7 @@
           desc: 'Contacts list with persistent data, themed around fictional characters. Solo project.',
           screencap_url: '../assets/ficlist.png',
           github_url: 'https://github.com/psamp/ficlist',
-          deployed_url: 'https://development.psamp-ficlist.divshot.io',
+          deployed_url: 'http://development.psamp-ficlist.divshot.io',
           built_with: [
             'Backbone',
             'HTML',
@@ -119,6 +120,18 @@
       ];
 
       $scope.work = myWork;
+
+      var stack = myWork.map(function(s){
+        return s.built_with;
+      });
+
+      var displayStack = stack.map(function(s) {
+        return s;
+      });
+
+      $scope.stack = stack;
+
+      // console.log('s', stack);
 
       $scope.toWork = function() {
         $location.hash('work');

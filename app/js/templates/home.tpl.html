@@ -3,7 +3,7 @@
   <div class="top">
 
     <span class="bio">
-      <h3>code like a teenaged girl.</h3>
+      <h3>code like a teenage girl.</h3>
       <p class="social"><a href="http://github.com/psamp" target="_blank"><i class="fa fa-github"></i></a></p>
       <p class="social"><i class="fa  faa-bounce animated fa-angle-double-down"></i></p>
     </span>
@@ -34,6 +34,9 @@
           <p><a href="{{ w.deployed_url }}" target="_blank"><i class="fa fa-external-link-square"></i></a> <a href="{{ w.github_url }}" target="_blank"><i class="fa fa-github-square"></i></a></p>
 
           <p>{{ w.desc }}</p>
+          <ul>
+            <li ng-repeat="b in w.built_with">{{b}}</li>
+          </ul>
       </md-content>
       </md-tab>
 

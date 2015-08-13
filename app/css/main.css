@@ -43,15 +43,25 @@ nav {
     margin-right: 10px; }
   nav .links {
     float: right; }
+    nav .links a {
+      color: white;
+      text-decoration: none; }
+      nav .links a:visted {
+        color: white; }
     nav .links span {
       margin-right: 10px;
       display: inline;
       border-bottom: 2px white solid;
       text-transform: lowercase; }
+      nav .links span:hover {
+        transition: .5s all ease;
+        opacity: .4;
+        cursor: pointer; }
 
 #home {
   text-align: center;
-  color: white; }
+  color: white;
+  width: 100%; }
 
 .top {
   margin-left: 0 auto;
@@ -97,6 +107,21 @@ nav {
       color: black; }
   .work .tabs {
     margin-top: 0; }
+    .work .tabs ul {
+      padding: 0;
+      color: white;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 700;
+      text-transform: lowercase;
+      background: black;
+      padding: 10px;
+      border-radius: 10px;
+      width: 200px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 3px;
+      margin-bottom: 3px;
+      text-align: center; }
     .work .tabs .fa {
       font-size: 30px; }
     .work .tabs .md-imac {
