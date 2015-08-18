@@ -15,7 +15,7 @@
           name: 'Leet',
           desc: 'MVP that brings together users with overlapping layovers. Worked with Ruby on Rails developers.',
           screencap_url: '../assets/leet.png',
-          github_url: 'https://github.com/leet-app/FE',
+          github_url: 'http://github.com/leet-app/FE',
           deployed_url: 'http://development.leet.divshot.io/#/',
           built_with: [
             'Angular',
@@ -33,7 +33,7 @@
           name: 'Ficlist',
           desc: 'Contacts list with persistent data, themed around fictional characters. Solo project.',
           screencap_url: '../assets/ficlist.png',
-          github_url: 'https://github.com/psamp/ficlist',
+          github_url: 'http://github.com/psamp/ficlist',
           deployed_url: 'http://development.psamp-ficlist.divshot.io',
           built_with: [
             'Backbone',
@@ -50,7 +50,7 @@
           name: 'Etsy Clone',
           desc: 'Clone of an Etsy search page. Solo project.',
           screencap_url: '../assets/etsy.png',
-          github_url: 'https://github.com/psamp/EtsySearch_Notebooks',
+          github_url: 'http://github.com/psamp/EtsySearch_Notebooks',
           deployed_url: 'http://psamp.github.io/EtsySearch_Notebooks',
           built_with: [
             'HTML',
@@ -65,7 +65,7 @@
           name: 'The Fox Tail',
           desc: 'Website for a restaurant, based on the functionality requested from an imagined client. Group project.',
           screencap_url: '../assets/foxtail.png',
-          github_url: 'https://github.com/krose422/the-fox-tail-restaurant',
+          github_url: 'http://github.com/krose422/the-fox-tail-restaurant',
           deployed_url: 'http://krose422.github.io/the-fox-tail-restaurant/',
           built_with: [
             'HTML',
@@ -82,7 +82,7 @@
           name: 'What Color Is It?',
           desc: 'Clock that converts the time of day into CSS hex color values, changing the background of the page to match.',
           screencap_url: '../assets/whatcolor.png',
-          github_url: 'https://github.com/psamp/Hexadecimal-Color-Clock_Normal',
+          github_url: 'http://github.com/psamp/Hexadecimal-Color-Clock_Normal',
           deployed_url: 'http://psamp.github.io/Hexadecimal-Color-Clock_Normal/',
           built_with: [
             'HTML',
@@ -95,8 +95,8 @@
           name: 'Surf & Paddle',
           desc: 'Reproduction of a vector of a blog layout, aiming for pixel perfection.',
           screencap_url: '../assets/sandp.png',
-          github_url: 'https://github.com/psamp/Surf_Paddle',
-          deployed_url: 'https://psamp.github.io/Surf_Paddle/',
+          github_url: 'http://github.com/psamp/Surf_Paddle',
+          deployed_url: 'http://psamp.github.io/Surf_Paddle/',
           built_with: [
             'HTML',
             '(S)CSS',
@@ -107,8 +107,8 @@
           name: 'g.s.d',
           desc: 'Simple todo list.',
           screencap_url: '../assets/todo.png',
-          github_url: 'https://github.com/psamp/g.s.d',
-          deployed_url: 'https://development.psamp-todo.divshot.io',
+          github_url: 'http://github.com/psamp/g.s.d',
+          deployed_url: 'http://development.psamp-todo.divshot.io',
           built_with: [
             'HTML',
             '(S)CSS',
