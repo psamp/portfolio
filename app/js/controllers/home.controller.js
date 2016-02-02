@@ -16,7 +16,7 @@
           desc: 'MVP that brings together users with overlapping layovers. Worked with Ruby on Rails developers.',
           screencap_url: '../assets/leet.png',
           github_url: 'http://github.com/leet-app/FE',
-          deployed_url: 'http://development.leet.divshot.io/#/',
+          deployed_url: 'https://leet.firebaseapp.com',
           built_with: [
             'Angular',
             'Angular Material',
@@ -34,7 +34,7 @@
           desc: 'Contacts list with persistent data, themed around fictional characters. Solo project.',
           screencap_url: '../assets/ficlist.png',
           github_url: 'http://github.com/psamp/ficlist',
-          deployed_url: 'http://development.psamp-ficlist.divshot.io',
+          deployed_url: 'http://ficlist.surge.sh/',
           built_with: [
             'Backbone',
             'HTML',
@@ -108,7 +108,7 @@
           desc: 'Simple todo list.',
           screencap_url: '../assets/todo.png',
           github_url: 'http://github.com/psamp/g.s.d',
-          deployed_url: 'http://development.psamp-todo.divshot.io',
+          deployed_url: 'http://gsd.surge.sh/',
           built_with: [
             'HTML',
             '(S)CSS',

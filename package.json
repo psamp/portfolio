@@ -23,14 +23,14 @@
     "gulp": "^3.9.0",
     "gulp-concat": "^2.5.2",
     "gulp-declare": "^0.3.0",
-    "gulp-htmlhint": "^0.3.0",
-    "gulp-jshint": "^1.11.0",
+    "gulp-htmlhint": "^0.3.1",
+    "gulp-jshint": "^2.0.0",
     "gulp-notify": "^2.2.0",
     "gulp-plumber": "^1.0.1",
-    "gulp-sass": "^2.0.1",
-    "gulp-server-livereload": "^1.5.3",
+    "gulp-sass": "^2.1.1",
+    "gulp-server-livereload": "^1.7.0",
     "gulp-wrap": "^0.11.0",
-    "jshint-stylish": "^2.0.0",
-    "main-bower-files": "^2.8.0"
+    "jshint-stylish": "^2.1.0",
+    "main-bower-files": "^2.11.1"
   }
 }
